@@ -44,14 +44,4 @@ export const initPagination = ({pages, fromRow, toRow, totalRows}, createPage) =
         updatePagination,
         applyPagination
     };
-    // return (data, state, action) => {
-    //     // @todo: #2.1 — посчитать количество страниц, объявить переменные и константы
-    //     const rowsPerPage = state.rowsPerPage;                        // будем часто обращаться, чтобы короче записывать
-    //     const pageCount = Math.ceil(data.length / rowsPerPage);        // число страниц округляем в большую сторону
-    //     let page = state.page;                                        // страница переменной, потому что она может меняться при обработке действий позже
-
-    //     // @todo: #2.2 — посчитать сколько строк нужно пропустить и получить срез данных
-    //     const skip = (page - 1) * rowsPerPage;            // сколько строк нужно пропустить
-    //     return data.slice(skip, skip + rowsPerPage);    // получаем нужную часть строк (заменяем имеющийся return)
-    // }
 }

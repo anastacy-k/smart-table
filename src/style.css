@@ -322,10 +322,6 @@ button.icon:hover,
     transform: translateY(-50%);
 }
 
-.filter-wrapper input[type="date"] {
-    padding-right: 55px;
-}
-
 .range-inputs {
     display: flex;
     gap: var(--size-gap-sm);
